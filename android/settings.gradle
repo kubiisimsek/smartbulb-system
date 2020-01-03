@@ -1,0 +1,12 @@
+rootProject.name = 'bitirmeDeneme'
+
+include ':react-native-background-timer'
+project(':react-native-background-timer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-background-timer/android')
+include ':react-native-vector-icons', ':spotify-auth-release-1.1.0'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-events'
+project(':react-native-events').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-events/android')
+include ':react-native-gesture-handler'
+project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+
+include ':app',':spotify-app-remote-release-0.6.3'

@@ -1,0 +1,9 @@
+{
+  "name": "bitirmeDeneme",
+  "displayName": "bitirmeDeneme",
+  "expo": {
+    "packagerOpts": {
+      "config": "metro.config.js"
+    }
+  }
+}
