@@ -97,7 +97,6 @@ export default class Home extends Component {
             const value = await AsyncStorage.getItem('SSID');
             if(value !== null){
                 this.setState({isStorageFull:true,storageSSID:value});
-                console.log(value)
                 WifiManager.getCurrentWifiSSID().then((ssid) => {
                     if(ssid == this.state.storageSSID){
                         setTimeout(() => {
