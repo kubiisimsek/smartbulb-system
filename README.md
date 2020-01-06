@@ -20,7 +20,11 @@ Firstly, a wifi network (Access Point) and websocket is created by NodeMCU.User 
 ![enter image description here](https://i.ibb.co/nggx1Ln/app-images.png)
 
 **NOTES** 
+
 On react-native, I installed the wifi manager package that I found. But I wrote the wifi manager codes as my own native module because it corrupted my project.
+
 Original package [react-native-wifi-manager](https://github.com/skierkowski/react-native-wifi-manager)
+
 My package in `android/app/src/main/java/com/bitirmedeneme`
+
 Also,i added a function to my own package that finds the IP addresses of devices on the wifi network.
